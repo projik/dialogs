@@ -1,6 +1,6 @@
 Package.describe({
   name: "templates:dialogs",
-  summary: "Dialogs with one function call on desktop and mobile.",
+  summary: "Cross-device dialogs.",
   version: "1.0.0",
   git: "https://github.com/meteortemplates/dialogs"
 });
