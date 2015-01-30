@@ -1,1 +1,3 @@
-Dialogs = {};
+Dialogs = {
+  browerType: "native"
+};
