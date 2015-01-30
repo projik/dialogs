@@ -1,6 +1,6 @@
 # Meteor Dialogs Package
 
-Add it to your [Meteor](http://meteor.com) app with `meteor add templates:dialogs`. 
+Add it to your [Meteor](http://meteor.com) app with `meteor add hybrid:dialogs`. 
 
 ### Dialogs.alert(message, [callback], [title], [buttonText])
 

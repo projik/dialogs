@@ -1,8 +1,8 @@
 Package.describe({
-  name: "templates:dialogs",
-  summary: "Cross-device dialogs.",
+  name: "hybrid:dialogs",
+  summary: "Cross-device alerts, confirms, and prompts.",
   version: "1.0.0",
-  git: "https://github.com/meteortemplates/dialogs"
+  git: "https://github.com/meteorhybrid/dialogs"
 });
 
 Cordova.depends({
