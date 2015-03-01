@@ -5,9 +5,9 @@ This package wraps dialogs on different platforms and libs to allow you to use o
 `meteor add hybrid:dialogs`
 
 Currently works with: 
-* [*] Native Browser Dialogs
-* [*] Cordova Dialogs
-* [*] Alertify Dialogs
+* [x] Native Browser Dialogs
+* [x] Cordova Dialogs
+* [x] Alertify Dialogs
 * [ ] Mac OSX
 
 ### Using alertify
