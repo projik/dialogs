@@ -1,13 +1,14 @@
 # Meteor Dialogs
 
-This package wraps dialogs on different devices and libs to allow you to use one set of functions.
+This package wraps dialogs on different platforms and libs to allow you to use one set of functions.
 
 `meteor add hybrid:dialogs`
 
 Currently works with: 
-* Native Browser Dialogs
-* Cordova Dialogs
-* Alertify Dialogs
+* [*] Native Browser Dialogs
+* [*] Cordova Dialogs
+* [*] Alertify Dialogs
+* [ ] Mac OSX
 
 ### Using alertify
 
