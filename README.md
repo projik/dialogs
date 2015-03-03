@@ -14,15 +14,21 @@ Currently works with:
 
 ### alert 
 Prompt the user with an alert.
-`Dialogs.alert(message, [callback], [title], [buttonText])`
+```
+Dialogs.alert(message, [callback], [title], [buttonText])
+```
 
 ### confirm
 Prompt the user with a confirmation box.
-`Dialogs.confirm(message, [callback], [title], [buttonText])`
+```
+Dialogs.confirm(message, [callback], [title], [buttonText])
+```
 
 ### prompt
 Prompt the user with a text input box.
-`Dialogs.prompt(message, [callback], [title], [buttonText], [defaultText])`
+```
+`Dialogs.prompt(message, [callback], [title], [buttonText], [defaultText])
+````
 
 =======================
 
