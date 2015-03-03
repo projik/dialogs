@@ -1,6 +1,6 @@
 # Meteor Dialogs
 
-This package wraps dialogs on different platforms and libs to allow you to use one set of functions.
+Cross-platform dialogs: alerts, confirms, and prompts (Cordova)
 
 `meteor add hybrid:dialogs`
 
@@ -9,6 +9,8 @@ Currently works with:
 * [x] Cordova Dialogs
 * [x] Alertify Dialogs
 * [ ] Mac OSX
+* [ ] Create Meteor Specific Dialogs
+* [ ] Finish Documentation
 
 ### Using alertify
 
@@ -16,17 +18,15 @@ Currently works with:
 
 *This is temporary*
 
-### Dialogs.alert(message, [callback], [title], [buttonText])
-
+### alert 
 Prompt the user with an alert.
+`Dialogs.alert(message, [callback], [title], [buttonText])`
 
-### Dialogs.confirm(message, [callback], [title], [buttonText])
-
+### confirm
 Prompt the user with a confirmation box.
+`Dialogs.confirm(message, [callback], [title], [buttonText])`
 
-### Dialogs.prompt(message, [callback], [title], [buttonText], [defaultText])
-
+### prompt
 Prompt the user with a text input box.
+`Dialogs.prompt(message, [callback], [title], [buttonText], [defaultText])`
 
-*TODO: Make these docs better*
-*TODO: Create Meteor specific dialogs*
