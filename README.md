@@ -12,12 +12,6 @@ Currently works with:
 * [ ] Create Meteor Specific Dialogs
 * [ ] Finish Documentation
 
-### Using alertify
-
-`Dialogs.browserType= 'alertify'` 
-
-*This is temporary*
-
 ### alert 
 Prompt the user with an alert.
 `Dialogs.alert(message, [callback], [title], [buttonText])`
@@ -30,3 +24,11 @@ Prompt the user with a confirmation box.
 Prompt the user with a text input box.
 `Dialogs.prompt(message, [callback], [title], [buttonText], [defaultText])`
 
+=======================
+
+### Web client options
+Dialogs defaults to using native browser dialogs however can also be used with alertify.
+
+####Using alertify
+*Requires alertify lib/package*
+`Dialogs.browserType = 'alertify'` 
