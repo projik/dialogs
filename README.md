@@ -21,7 +21,7 @@ Prompt the user with an alert.
 * title
 * buttons
 ```
-Dialogs.alert("Please enter a valid email address.", null, "Invalid Email", "OK")
+Dialogs.alert("Please enter a valid email address.", null, "Invalid Email", "OK");
 ```
 
 ### confirm
@@ -37,13 +37,20 @@ Dialogs.confirm("Would you like to reset your password?", function (res) {
   } else {
     console.log("No");
   }
-}, "Forgot Password", ["Yes", "No"])
+}, "Forgot Password", ["Yes", "No"]);
 ```
 
 ### prompt
 Prompt the user with a text input box.
+* message
+* callback
+* title
+* buttons
+* default text
 ```
-`Dialogs.prompt(message, [callback], [title], [buttonText], [defaultText])
+Dialogs.prompt("Please enter your email address", function (res) {
+  console.log(res);
+}, "Newsletter", "OK", "")
 ````
 
 =======================
