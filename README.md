@@ -23,7 +23,13 @@ Dialogs.alert(message, [callback], [title], [buttonText])
 ### confirm
 Prompt the user with a confirmation box.
 ```
-Dialogs.confirm(message, [callback], [title], [buttonText])
+Dialogs.confirm("Would you like to reset your password?", function (res) {
+  if (res === 1) {
+    console.log("Yes");
+  } else {
+    console.log("No");
+  }
+}, "Forgot Password", ["Yes", "No"])
 ```
 
 ### prompt
