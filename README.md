@@ -16,12 +16,20 @@ Currently works with:
 
 ### alert 
 Prompt the user with an alert.
+* message
+* callback
+* title
+* buttons
 ```
-Dialogs.alert(message, [callback], [title], [buttonText])
+Dialogs.alert("Please enter a valid email address.", null, "Invalid Email", "OK")
 ```
 
 ### confirm
 Prompt the user with a confirmation box.
+* message
+* callback
+* title
+* buttons
 ```
 Dialogs.confirm("Would you like to reset your password?", function (res) {
   if (res === 1) {
