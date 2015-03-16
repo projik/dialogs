@@ -4,9 +4,12 @@
 
 > Cross-platform dialogs: alerts, confirms, and prompts (Cordova)
 
-`meteor add hybrid:dialogs`
+## Installation 
+```
+meteor add hybrid:dialogs
+```
 
-Currently works with: 
+## Currently works with: 
 * [x] Native Browser Dialogs
 * [x] Cordova Dialogs
 * [x] Alertify Dialogs
@@ -14,7 +17,8 @@ Currently works with:
 * [ ] Create Meteor Specific Dialogs
 * [ ] Finish Documentation
 
-### alert 
+## API 
+#### alert 
 Prompt the user with an alert.
 * message
 * callback
@@ -24,7 +28,7 @@ Prompt the user with an alert.
 Dialogs.alert("Please enter a valid email address.", null, "Invalid Email", "OK");
 ```
 
-### confirm
+#### confirm
 Prompt the user with a confirmation box.
 * message
 * callback
@@ -40,7 +44,7 @@ Dialogs.confirm("Would you like to reset your password?", function (res) {
 }, "Forgot Password", ["Yes", "No"]);
 ```
 
-### prompt
+#### prompt
 Prompt the user with a text input box.
 * message
 * callback
@@ -58,6 +62,6 @@ Dialogs.prompt("Please enter your email address", function (res) {
 ### Web client options
 Dialogs defaults to using native browser dialogs however can also be used with alertify.
 
-####Using alertify
+#### Using alertify
 *Requires alertify lib/package*
 `Dialogs.browserType = 'alertify'` 
