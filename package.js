@@ -1,7 +1,7 @@
 Package.describe({
-  name: "hybrid:dialogss",
+  name: "hybrid:dialogs",
   summary: "Cross-platform dialogs: alerts, confirms, and prompts (Cordova).",
-  version: "1.0.2",
+  version: "1.0.3",
   git: "https://github.com/meteorhybrid/dialogs"
 });
 
