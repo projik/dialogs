@@ -6,7 +6,7 @@
 
 ## Installation 
 ```
-meteor add hybrid:dialogs
+meteor add supaseca:dialogs
 ```
 
 ## Currently works with: 
