@@ -1,4 +1,4 @@
-# !Hybrid Dialogs
+# Hybrid Dialogs
 
 > Cross-platform dialogs: alerts, confirms, and prompts (Cordova)
 
