@@ -1,6 +1,4 @@
-# ![Hybrid](http://i.imgur.com/jUDMlbO.png) Dialogs
-
-[![Join the chat at https://gitter.im/buildhybrid/platform](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/buildhybrid/platform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# !Hybrid Dialogs
 
 > Cross-platform dialogs: alerts, confirms, and prompts (Cordova)
 
